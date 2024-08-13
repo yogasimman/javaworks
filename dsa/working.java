@@ -1,15 +1,12 @@
 public class working {
     public static void main(String args[]){
-        queue stk = new queue(10);
-        stk.enqueue(5);
-        stk.enqueue(6);
-        stk.enqueue(2);
-        stk.enqueue(1);
-        stk.dequeue();
-        stk.dequeue();
-        stk.dequeue();
-        stk.dequeue();
-        stk.dequeue();
+        priority_queue stk = new priority_queue(10);
+        stk.push(6);
+        stk.push(7);
+        stk.push(8);
+        stk.push(1);
+        stk.push(9);
+        stk.pop();
         stk.display();
     }
 }
